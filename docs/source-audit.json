@@ -1,0 +1,22 @@
+{
+  "plugin_id": "aspose.tex.net",
+  "sources": {
+    "docs": {
+      "revision": "4443a4a32ef13567d8c260e766250f40cafdc592",
+      "discovered": 48,
+      "extracted": 48,
+      "chunks": 104,
+      "symbols": 0,
+      "warnings": {}
+    },
+    "apiref": {
+      "revision": "1f95d41e834561dadf8287eddf319af9d4424ec4",
+      "discovered": 325,
+      "extracted": 325,
+      "chunks": 325,
+      "symbols": 319,
+      "warnings": {}
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,19 @@
+{
+  "contract": "adcs.extraction.v1",
+  "plugin_id": "aspose.tex.net",
+  "product_id": "aspose.tex",
+  "language": "net",
+  "operation": "extract",
+  "source_kind": "apiref",
+  "repo_id": "aspose.tex.net.apiref",
+  "product_family": "aspose",
+  "source_path": "sources/api-reference/english/net/aspose.tex/texjob/_index.md",
+  "relative_repo_path": "english/net/aspose.tex/texjob/_index.md",
+  "source_prefix": "english/net",
+  "layout_detection": {
+    "layout_type": "doc_locale/programming_language/namespace"
+  },
+  "source_revision": "inline-example",
+  "canonical_base_url": "https://reference.aspose.com/tex/net",
+  "raw_markdown": "---\ntitle: Class TeXJob\nsecond_title: Aspose.TeX for .NET API Reference\ndescription: Aspose.TeX.TeXJob class. Implements features of a TeX job\ntype: docs\nweight: 820\nurl: /net/aspose.tex/texjob/\n---\n## TeXJob class\n\nImplements features of a TeX job.\n\n```csharp\npublic class TeXJob\n```\n\n## Constructors\n\n| Name | Description |\n| --- | --- |\n| [TeXJob](texjob/#constructor)(Device,\u00a0TeXOptions) | Creates a TeX job for running the engine in production mode to typeset a TeX document. The engine will prompt the file name as soon as it starts. Thus this run is supposed to be interactive. |\n| [TeXJob](texjob/#constructor_1)(Stream,\u00a0Device,\u00a0TeXOptions) | Creates a TeX job for running the engine in production mode to typeset a TeX file. |\n| [TeXJob](texjob/#constructor_2)(string,\u00a0Device,\u00a0TeXOptions) | Creates a TeX job for running the engine in production mode to typeset a TeX file. |\n\n## Methods\n\n| Name | Description |\n| --- | --- |\n| [Run](../../aspose.tex/texjob/run/)() | Runs TeX job. |\n| static\u00a0[CreateFormat](../../aspose.tex/texjob/createformat/)(string,\u00a0TeXOptions) | Runs TeX engine in INITEX mode to create a format file (.fmt). |\n\n### See Also\n\n* namespace\u00a0[Aspose.TeX](../../aspose.tex/)\n* assembly\u00a0[Aspose.TeX](../../)\n\n\n"
+}
