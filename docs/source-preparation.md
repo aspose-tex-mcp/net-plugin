@@ -1,6 +1,6 @@
 # Source preparation
 
-`plugin.json` defines repository URLs, branches, prefixes, and layout metadata. Source paths are relative to the ingestion workspace. Use this checkout as the workspace for the commands below.
+`plugin.json` defines repository URLs, branches, prefixes, and layout metadata. Source paths are relative to the ingestion workspace. Use this checkout as the workspace for the commands below. If deploying [net-server](https://github.com/aspose-tex-mcp/net-server), follow its [ingestion guide](https://github.com/aspose-tex-mcp/net-server/blob/main/docs/ingestion.md) instead: source repositories go under `engine/`, while the Gist cache stays beside the plugin under `plugins/tex-net/sources/`.
 
 ```sh
 mkdir -p sources

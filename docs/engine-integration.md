@@ -2,7 +2,13 @@
 
 Use [plugin-based ingestion](https://github.com/aspose-core-mcp/context-engine/blob/main/docs/engine-only.md) with an engine implementing `adcs.extraction.v1`. Install and configure the engine separately; it owns runtime stores, indexing, publication, and serving.
 
-## Register the plugin
+## Recommended TeX deployment
+
+Use [aspose-tex-mcp/net-server](https://github.com/aspose-tex-mcp/net-server) for a deployment with pinned public engine and plugin revisions. Follow its [setup](https://github.com/aspose-tex-mcp/net-server/blob/main/docs/setup.md) and [ingestion guide](https://github.com/aspose-tex-mcp/net-server/blob/main/docs/ingestion.md). Its catalog already registers `aspose.tex.net`; no change to the shared engine's default catalog is required.
+
+The server helpers use `engine/` as the ingestion workspace and `plugins/tex-net/` for the plugin and Gist cache. Use that guide's paths when deploying the server. The standalone instructions below use this plugin checkout as the workspace instead.
+
+## Register the plugin in an existing engine deployment
 
 Create a deployment-specific catalog, preserving any existing registrations:
 
@@ -30,4 +36,8 @@ This plugin has no `retrieval_profile` field or profile file. It uses the engine
 
 Extractor or source changes require re-extraction and publication of affected content. Restarting a server alone does not update indexed symbols or excerpts.
 
-A dedicated public TeX server deployment repository and client setup guide are pending publication. Until then, use the [engine deployment documentation](https://github.com/aspose-core-mcp/context-engine/blob/main/DEPLOYMENT.md) and configure clients with the endpoint of your own deployment.
+## Connect an MCP client
+
+Follow the [TeX server client guide](https://github.com/aspose-tex-mcp/net-server/blob/main/docs/clients.md) and configure your client with your deployed `/tex/net/mcp/v1/streamable-http` endpoint. The server is self-hosted; no hosted endpoint is supplied. Ingest and publish TeX content before evaluating retrieval results.
+
+The client guide includes generic VS Code Copilot MCP configuration. A dedicated TeX Copilot custom-agent repository is still pending publication.

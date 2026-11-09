@@ -10,10 +10,11 @@ Extraction uses the Python standard library and has no engine or Words runtime d
 | --- | --- |
 | [context-engine](https://github.com/aspose-core-mcp/context-engine) | Shared ingestion, indexing, retrieval, and MCP infrastructure |
 | [net-plugin](https://github.com/aspose-tex-mcp/net-plugin) **(this repository)** | TeX/.NET documentation and API extraction |
+| [net-server](https://github.com/aspose-tex-mcp/net-server) | Deployment helpers combining pinned engine and TeX plugin versions |
 | [docs](https://github.com/aspose-tex-mcp/docs) | Documentation source Markdown |
 | [reference](https://github.com/aspose-tex-mcp/reference) | API reference source Markdown |
 
-A dedicated TeX server deployment repository and client guide will be linked when published. For now, use the [engine integration guide](docs/engine-integration.md).
+Use the [TeX server setup guide](https://github.com/aspose-tex-mcp/net-server/blob/main/docs/setup.md) to deploy the engine with this plugin registered, then follow [client setup](https://github.com/aspose-tex-mcp/net-server/blob/main/docs/clients.md). A dedicated TeX Copilot custom-agent repository is still pending publication.
 
 ## Quick start
 
