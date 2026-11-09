@@ -8,7 +8,11 @@ Use [aspose-tex-mcp/net-server](https://github.com/aspose-tex-mcp/net-server) fo
 
 The server helpers use `engine/` as the ingestion workspace and `plugins/tex-net/` for the plugin and Gist cache. Use that guide's paths when deploying the server. The standalone instructions below use this plugin checkout as the workspace instead.
 
-## Register the plugin in an existing engine deployment
+## Optional: register with an existing engine
+
+> **Using `aspose-tex-mcp/net-server`?** Registration is already configured. Skip the manual registration steps below and follow the server's [setup](https://github.com/aspose-tex-mcp/net-server/blob/main/docs/setup.md) and [ingestion guides](https://github.com/aspose-tex-mcp/net-server/blob/main/docs/ingestion.md).
+
+These steps are only for adding the plugin to an existing or custom context-engine deployment.
 
 Create a deployment-specific catalog, preserving any existing registrations:
 
